@@ -1,0 +1,9 @@
+{
+    "STEPPER": {
+        "POSITION": 20.0,
+        "FAULTS": 6
+    },
+    "CYCLES": 18,
+    "ANTENNA_DEPLOYED": false,
+    "PAYLOAD_DEPLOYED": false
+}

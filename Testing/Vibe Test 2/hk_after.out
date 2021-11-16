@@ -1,0 +1,80 @@
+
+BATTERY
+ Voltage (mV): 8132
+ Input (mA): 0
+ Output (mA): 334
+ Bat. state: NORMAL
+ Heater mode: MANUAL
+ Heater state: OFF
+
+MPPT SOLAR CHARGING
+   Converter            1            2            3            4 
+  I_spX (mA)            0            0            0            0 
+  I_spY (mA)            0            0            0            0 
+      U (mV)         2285         2298         2303         2236 
+  P_spX (mW)            0            0            0            0 
+  P_spY (mW)            0            0            0            0 
+
+ Charge I (mA): 0
+ Charge U (mV): 8132
+ MPPT mode: HW
+
+OUTPUTS
+   Output     State      L_up    Faults   Ton (s)  Toff (s)    I (mA) Converter 
+  AO_3.3V         -         -         -         -         -        32      3336 
+    AO_5V         -         -         -         -         -       433      5000 
+        1         0         0         0         0         0         0      5000 
+        2         0         0         0         0         0         0      5000 
+        3         0         0         0         0         0         0      5000 
+        4         1         0         0         0         0         0      3336 
+        5         0         0         0         0         0         0      3336 
+        6         1         0         0         0         0         4      3336 
+        7         0         0         0         0         0         0     11995 
+        8         0         0         0         0         0         0     15278 
+        9         0         0         0         0         0         0       bat 
+       10         0         0         0         0         0         0       bat 
+
+OUTPUT CONVERTERS
+ Converter      1      2      3      4 
+    U (mV)   3336   5000  11995  15278 
+     State     ON     ON     ON     ON 
+
+TEMPERATURE (C)
+ MPPT CONVERTERS
+  1: 24
+  2: 24
+  3: 24
+  4: 24
+ OUTPUT CONVERTERS
+  5: 24
+  6: 25
+  7: 25
+  8: 24
+ BATTERY PACK
+  9: 24
+  10: -
+  11: 24
+  12: -
+
+WDT_gs COUNTER
+ Count: 23
+ Left: 86239
+
+BOOT COUNTER
+ Cause: GS_WDT
+ Counter: 29
+
+PING WDT
+Next check in: 124 s
+No. Timeouts Toggles Turn offs 
+  1        0       0         0 
+  2        0       0         0 
+  3        0       0         0 
+  4        0       0         0 
+  5        0       0         0 
+  6        0       0         0 
+  7        0       0         0 
+  8        0       0         0 
+total toggles: 0
+total offs: 0
+OK

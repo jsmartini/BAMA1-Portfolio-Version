@@ -1,0 +1,32 @@
+[DRV8830]
+x = [4, 30]
+y = [5, 30]
+z = [6, 30]
+
+[MMC]
+# channels for each sensor
+s1 = 0
+s2 = 1
+s3 = 2
+
+[MUX]
+path = "/dev/i2c-"
+
+[GAINS]
+xyz = [0.29, 0.29, 0.34]
+xyz_ohms = [25.0, 25.0, 27.0]
+
+[CALS]
+s1 = [1, 0, 0, 0, 1, 0, 0, 0, 1] # 9 dobule array for calibration and rotation of values
+s2 = [1, 0, 0, 0, 1, 0, 0, 0, 1]
+s3 = [1, 0, 0, 0, 1, 0, 0, 0, 1]
+
+[FILTER]
+w = [0.1, 0.25, 0.3, 0.35]  # array of max length
+
+[TESTING]
+target = "127.0.0.1"
+port = 7777
+
+[MISC]
+rate = 0.1

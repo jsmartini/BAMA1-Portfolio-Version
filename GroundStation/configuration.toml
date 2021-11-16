@@ -1,0 +1,15 @@
+[ROUTING]
+# 5-bit CIDR Routes for various testing
+testing_mbm2 = "3/1 CAN, 16 ZMQHUB 10, 10 ZMQHUB 16"
+testing_groundstation = "0/0 ZMQHUB"
+production_mbm2 = "0/0 CAN"
+
+[HARDWARE]
+i2c = 1
+can = "can0"
+
+[CSP]
+TIMEOUT_GENERAL = 1000
+
+[ARM]
+password = "Xaipe"
