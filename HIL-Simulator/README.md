@@ -13,12 +13,3 @@ python3 2body_simulation [log level]
  
  -bdot zmq verification script
     
-    
- TODO:
- 
- 
-  - actually factor in the torques calculated by the controller into the dynamic model
-  - may have to expand the state space to take into account the acceleration of the quaternion if it
-  - is not already factored in
-  
-  - @ alex my interpretation is that pqrdot is the derivative of the euler angles from the rotation matrix of the quaternion
