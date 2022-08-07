@@ -1,3 +1,6 @@
+!!KEY FILES ARE REMOVED ON PURPOSE!!
+If you want access to the working version, contact me at jsmartini@crimson.ua.edu.
+
 # BAMA-1 CubeSat Mission
 
 Codebase for BAMA-1 CubeSat Mission
